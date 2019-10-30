@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,800');
+/* 采用新浪官网 样式初始化 */
+
+html, body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #F7F7F7;
+    color: #333;
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+input, select, button {
+    outline: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+select, input, img, select {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #fff;
+}
+
+
+/* a:visited {
+    color: #800080;
+}
+
+a:hover, a:active, a:focus {
+    color: #c00;
+    text-decoration: none;
+} */
+
+/* 初始化结束 */
+
+header {
+    width: 100%;
+    position: relative;
+    height: 150px;
+    border: 1px solid #000;
+    background: rgb(38, 38, 38);
+}
+
+.main {
+    width: 100%;
+    /* height: 100%; */
+    /* position: relative; */
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 88px;
+    background-color: rgb(51, 51, 51);
+}

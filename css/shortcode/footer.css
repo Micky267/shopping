@@ -1,0 +1,89 @@
+.footer-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -13px;
+    top: 50%;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-container span {
+    color: #fff;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.social_block {
+    position: fixed;
+    /*固定定位*/
+    width: 185px;
+    height: 200px;
+    top: 20%;
+    right: 0px;
+}
+
+.social_block ul li {
+    box-sizing: border-box;
+    position: relative;
+    right: -135px;
+    margin-bottom: 3px;
+    width: 185px;
+    height: 50px;
+    border-radius: 3% 0 0 3%;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    color: #fff;
+}
+
+.social_block ul li:hover {
+    right: 0px;
+}
+
+.social_block ul li a {
+    position: absolute;
+    display: inline-block;
+    width: 135px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.social_block ul li::before {
+    line-height: 50px;
+    text-align: center;
+    content: "前面";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    border-right: 1px solid #fff;
+}
+
+.social_block ul li.fb {
+    background-color: #425f9c;
+}
+
+.social_block ul li.fb::before {
+    content: "F";
+}
+
+.social_block ul li.tt {
+    background-color: #ff9900;
+}
+
+.social_block ul li.tt::before {
+    content: "T";
+}
+
+.social_block ul li.blog {
+    background: #f40;
+}
+
+.social_block ul li.blog::before {
+    content: "B";
+}

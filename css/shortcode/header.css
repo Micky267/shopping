@@ -1,0 +1,159 @@
+.header-top-bar {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background: #171717;
+}
+
+.header-top-bar .user {
+    height: 100%;
+    position: absolute;
+    right: 100px;
+    font-weight: 600;
+}
+
+.header-top-bar .user a {
+    line-height: 30px;
+    color: rgb(189, 189, 189);
+}
+.header-top-bar .user a:hover{
+    color: #fff;
+}
+
+.header-top-bar .user .show-toggle {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    background: rgb(255, 255, 255);   
+    z-index: 10;
+    max-height: 0%;
+    overflow: hidden;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    transition: 0.6s;
+}
+
+.header-top-bar .user .show-toggle li {
+    text-align: center;
+}
+
+.header-top-bar .user .show-toggle li a {
+    cursor: pointer;
+    color: #555555;
+}
+
+.main-hearder {
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+
+.main-hearder .container {
+    width: 1170px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.main-hearder .container .logo {
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+}
+
+.main-hearder .container .logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.main-hearder .container .right {
+    position: relative;
+    box-sizing: border-box;
+    float: right;
+    height: 100%;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.main-hearder .container .search-box {
+    position: absolute;
+    margin-top: 12px;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+.main-hearder .container .search-box form {
+    position: relative;
+    height: 50px;
+}
+
+.main-hearder .container .search-box input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 60px 0 180px;
+    height: 100%;
+    color: #fff;
+    background-color: #171717;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.main-hearder .container .search-box {
+    display: inline-block;
+    float: left;
+}
+
+.main-hearder .container .search-box select {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 165px;
+    border-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+    color: #999999;
+    padding-left:10px ;
+}
+
+.main-hearder .container .search-box button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55px;
+    height: 100%;
+    background: #f4a137;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.main-hearder .container .search-box i {
+    font-size: inherit;
+    color: #fff;
+}
+
+.main-hearder .container .right .top-cart-wrapper {
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    width: 40%;
+    height: 65px;
+}
+
+.main-hearder .container .right .top-cart-wrapper .cart-container {
+    background: url("../../img/top-cart.png") no-repeat;
+    width: 100px;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+.main-hearder .container .right .cart-container span {
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
